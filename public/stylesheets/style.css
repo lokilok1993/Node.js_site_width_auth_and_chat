@@ -1,0 +1,81 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+#login{
+  display: inline-block;
+}
+#login p{
+  margin: 0;
+}
+a {
+  color: #aaa;
+}
+.content-wrapper{
+  padding: 10px 20px 20px 20px;
+  height: 60px;
+  background: white;
+}
+.float-left{
+  float: left;
+}
+.site-title{
+  font-size: 22px;
+  color: #a0a9bd;
+}
+.float-right{
+  float: right;
+}
+.main-content{
+  background: #1d3a48;
+  min-height: 300px;
+  color: white;
+  padding: 20px 400px 20px 400px;
+}
+.main-content h1{
+  font-size: 31px;
+  font-weight: bold;
+}
+.main-content label{
+  width: 165px;
+  display: inline-block;
+}
+.main-content form div{
+  margin-bottom: 10px
+}
+.main-content form input{
+  padding: 3px;
+  border-radius: 4px;
+  background: #d9d9d9;
+}
+.menu-items nav{
+  display: inline-block;
+}
+.menu-items #menu li{
+  display: inline-block;
+  list-style: none;
+  background: #f4eb9b;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.menu-items #menu li a{
+  text-decoration: none;
+  color: #0076d4;
+}
+.menu-items #login li{
+  display: inline-block;
+  list-style: none;
+}
+.menu-items #login li a{
+  text-decoration: none;
+  color: #fffbdc;
+  padding: 11px;
+  background: #0076d4;
+}
+.greet{
+    font-weight: 700;
+    position: relative;
+    right: 20px;
+    font-size: 18px;
+}

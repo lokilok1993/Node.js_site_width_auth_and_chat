@@ -1,0 +1,20 @@
+{
+  "port": "8080",
+  "domain": "localhost",
+  "log-level": "dev",
+  "app-view": "views",
+  "app-engine": "ejs",
+  "app-static": "public",
+  "db-cnn":"mongodb://localhost/site",
+  "logged": false,
+  "session": {
+    "secret": "SomethingSimple",
+    "Key": "NODESESSID",
+    "cookie": {
+      "path":"/",
+      "maxAge": null,
+      "httpOnly": true
+    }
+  }
+
+}

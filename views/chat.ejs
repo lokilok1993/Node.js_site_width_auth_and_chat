@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+
+  
+</head>
+<body style="padding:100px 0 0 100px;">
+  
+  <p id="userNameLabel"><%= userName %></p> 
+  <div id="content" style="width:500px; height:300px; margin: 0 0 20px 0; border: 1px solid #999; pverflow: scroll;"></div>
+  <form action=""onsubmit='return false' id="form">
+      <input type="text" id="field" style="width: 350px;">
+      <input type="submit" id="send" value="Послать">
+  </form>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/chatClient.js"></script>
+</body>
+</html>
